@@ -6,15 +6,22 @@
     "start": "nodemon ./bin/www"
   },
   "dependencies": {
+    "@azure/cosmos": "^3.6.3",
+    "@azure/storage-blob": "^12.1.1",
     "cookie-parser": "~1.4.4",
     "debug": "~2.6.9",
     "express": "~4.16.1",
     "http-errors": "~1.6.3",
+    "into-stream": "^5.1.1",
     "jade": "~1.11.0",
-    "morgan": "^1.10.0",
-    "tedious": "^8.3.0"
+    "moment": "^2.24.0",
+    "morgan": "~1.9.1",
+    "multer": "^1.4.2",
+    "tedious": "^8.2.0",
+    "uuid": "^7.0.3"
   },
   "devDependencies": {
-    "nodemon": "^2.0.4"
+    "nodemon": "^2.0.4",
+    "prettier": "2.0.5"
   }
 }
